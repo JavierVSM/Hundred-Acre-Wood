@@ -39,63 +39,8 @@ tigger.north.east = bees;
 rabbit.west=tigger.north.north;
 tigger.north.north.east=rabbit;
 rabbit.south=tigger.north.east;
-bees.north=tigger.north.north.west;
+bees.north=tigger.north.north.east;
 
 
-piglet.north=//owl.south;
-
-
-
-
-
-
-bees.west = tigger.north;
-tigger.north.east = bees;
-bees.north=/rabbit/;
-
-
-let kid = { character: "Christopher Robin" };
-kid.south=tigger.north;
-tigger.north.north=kid.south;
-
-kid.west=;
-kid.east=;
-kid.south=;
-kid.north=;
-
-
-let rabbit = { character: "Rabbit" };
-rabbit.west=tigger.north.north;
-rabbit.east=;
-rabbit.south=;
-rabbit.north=;
-
-let owl = { character: "Owl" };
-owl.west=;
-owl.east=;
-owl.south=;
-owl.north=;
-
-let eeyore = { character: "Eeyore" };
-eeyore.west=;
-eeyore.east=;
-eeyore.south=;
-eeyore.north=;
-
-let heffalumps = { character: "Heffalump" };
-heffalumps.west=;
-heffalumps.east=;
-heffalumps.south=;
-heffalumps.north=;
-
-let kanga = { character: "Kanga" };
-kanga.west=;
-kanga.east=;
-kanga.south=;
-kanga.north=;
-
-let gopher = { character: "Gopher" };
-gopher.west=;
-gopher.east=;
-gopher.south=;
-gopher.north=;
+tigger.north.north.east.east=gopher;
+tigger.north.north.north.north.east=heffalumps;
