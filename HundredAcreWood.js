@@ -41,6 +41,7 @@ tigger.north.north.east=rabbit;
 rabbit.south=tigger.north.east;
 bees.north=tigger.north.north.east;
 
-
+gopher.west=tigger.north.north.east;
 tigger.north.north.east.east=gopher;
+heffalumps.west=tigger.north.north.north.north;
 tigger.north.north.north.north.east=heffalumps;
